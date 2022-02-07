@@ -3,14 +3,14 @@ Source: freetype
 Architecture: source
 Version: 2.11.1-100
 Checksums-Md5:
- 0c754c07f9bf350aeea73c3eb58d4c7e 2155 freetype_2.11.1-100.dsc
+ af572c863d1f09d6989aedb0766674c4 2155 freetype_2.11.1-100.dsc
 Checksums-Sha1:
- 25ffe2a4c66c09f5a5a29b71c0c68204c9cb92d1 2155 freetype_2.11.1-100.dsc
+ 20b248c3d3a39af1e7792c550c57088929e8ec1a 2155 freetype_2.11.1-100.dsc
 Checksums-Sha256:
- 457c745b240ba08ac7885395795359016543b4adebf7153532b174e5120dc7d7 2155 freetype_2.11.1-100.dsc
+ c40ab4b7cbc46aafdd194abaacba77be11d35c29bf9f471535d8c205fe07a3fd 2155 freetype_2.11.1-100.dsc
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 07 Feb 2022 20:54:17 +0000
+Build-Date: Mon, 07 Feb 2022 21:13:58 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-14),
  automake (= 1:1.16.3-2),
