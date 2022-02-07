@@ -1,0 +1,97 @@
+ dpkg-buildpackage -us -uc -ui -i -d -S
+dpkg-buildpackage: info: source package freetype
+dpkg-buildpackage: info: source version 2.11.1-100
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Package Store <mail@z17.dev>
+ dpkg-source -i --before-build .
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: applying enable-gxvalid-otvalid.patch
+dpkg-source: info: applying enable-subpixel-rendering.patch
+dpkg-source: info: applying jquery.patch
+dpkg-source: info: applying no-web-fonts.patch
+dpkg-source: info: applying hide-donations-information.patch
+ debian/rules clean
+dh clean
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/root/git/repo_src/_build'
+dh_auto_clean --sourcedir=ft2demos -- TOP_DIR=/root/git/repo_src/_build
+	cd ft2demos && make -j2 distclean TOP_DIR=/root/git/repo_src/_build
+make[2]: Entering directory '/root/git/repo_src/_build/ft2demos'
+I need a path to FreeType 2's `config.mk' to do that!
+Set the `TOP_DIR' variable to the correct value.
+make[2]: 'distclean' is up to date.
+make[2]: Leaving directory '/root/git/repo_src/_build/ft2demos'
+dh_auto_clean
+	make -j2 distclean
+make[2]: Entering directory '/root/git/repo_src/_build'
+rm -f builds/unix/config.cache
+rm -f builds/unix/config.log
+rm -f builds/unix/config.status
+rm -f builds/unix/unix-def.mk
+rm -f builds/unix/unix-cc.mk
+rm -f builds/unix/freetype2.pc
+rm -f nul
+make[2]: Leaving directory '/root/git/repo_src/_build'
+rm -rf debian/udeb objs/.libs
+make[1]: Leaving directory '/root/git/repo_src/_build'
+   dh_clean
+ dpkg-source -i -b .
+dpkg-source: warning: upstream signing key but no upstream tarball signature
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building freetype using existing ./freetype_2.11.1.orig-ft2demos.tar.xz
+dpkg-source: info: building freetype using existing ./freetype_2.11.1.orig-ft2docs.tar.xz
+dpkg-source: info: building freetype using existing ./freetype_2.11.1.orig.tar.xz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: building freetype in freetype_2.11.1-100.debian.tar.xz
+dpkg-source: info: building freetype in freetype_2.11.1-100.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../freetype_2.11.1-100_source.changes
+dpkg-genchanges: warning: the current version (2.11.1-100) is earlier than the previous one (2.11.1+dfsg-1)
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source -i --after-build .
+dpkg-source: info: unapplying hide-donations-information.patch
+dpkg-source: info: unapplying no-web-fonts.patch
+dpkg-source: info: unapplying jquery.patch
+dpkg-source: info: unapplying enable-subpixel-rendering.patch
+dpkg-source: info: unapplying enable-gxvalid-otvalid.patch
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian freetype_2.11.1-100_source.changes ...
+warning: running with root privileges is not recommended!
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/bundle.82b56eb2.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/bundle.82b56eb2.min.js.map
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.ar.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.da.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.de.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.du.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.es.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.fi.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.fr.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.hi.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.hu.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.it.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.ja.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.jp.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.multi.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.nl.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.no.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.pt.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.ro.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.ru.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.stemmer.support.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.sv.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.th.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.tr.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.vi.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/min/lunr.zh.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/tinyseg.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/lunr/wordcut.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/workers/search.477d984a.min.js
+E: freetype source: source-includes-file-in-files-excluded docs/reference/assets/javascripts/workers/search.477d984a.min.js.map
+W: freetype source: newer-standards-version 4.6.0 (current is 4.5.1)
+W: freetype source: no-nmu-in-changelog
+W: freetype source: orig-tarball-missing-upstream-signature freetype_2.11.1.orig-ft2demos.tar.xz
+W: freetype source: orig-tarball-missing-upstream-signature freetype_2.11.1.orig-ft2docs.tar.xz
+W: freetype source: orig-tarball-missing-upstream-signature freetype_2.11.1.orig.tar.xz
+W: freetype source: source-nmu-has-incorrect-version-number 2.11.1-100
+N: 83 hints overridden (83 errors)
+Finished running lintian.

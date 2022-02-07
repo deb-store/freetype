@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 07 Feb 2022 23:10:00 +0300
+Source: freetype
+Architecture: source
+Version: 2.11.1-100
+Distribution: unstable
+Urgency: medium
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Changed-By: Package Store <mail@z17.dev>
+Changes:
+ freetype (2.11.1-100) unstable; urgency=medium
+ .
+   * UPD: Move to DEB Store.
+Checksums-Sha1:
+ 25ffe2a4c66c09f5a5a29b71c0c68204c9cb92d1 2155 freetype_2.11.1-100.dsc
+ 2ffcb1bd3dcc141f2261d2cdf9eb1d6db608053e 257240 freetype_2.11.1.orig-ft2demos.tar.xz
+ 741bc47a4f7861dae5c95915060ab137692e482a 2038348 freetype_2.11.1.orig-ft2docs.tar.xz
+ 86bdc98b37efe447cf53420bf2c18402ff905112 2270728 freetype_2.11.1.orig.tar.xz
+ 4276f328a671b235a9cc4f205eac37d85a8aaec7 40132 freetype_2.11.1-100.debian.tar.xz
+ cfdb5fdaaf543370990ed765c8419260ed88d0cd 4583 freetype_2.11.1-100_source.buildinfo
+Checksums-Sha256:
+ 457c745b240ba08ac7885395795359016543b4adebf7153532b174e5120dc7d7 2155 freetype_2.11.1-100.dsc
+ c60620d49d0f16d95586eb868c01b129569409e6cfdcb87a78e0482a12604672 257240 freetype_2.11.1.orig-ft2demos.tar.xz
+ 755e29908093c19138a38775784b0accf7e838ffa28a25b8722b3dfe651d80fa 2038348 freetype_2.11.1.orig-ft2docs.tar.xz
+ 3333ae7cfda88429c97a7ae63b7d01ab398076c3b67182e960e5684050f2c5c8 2270728 freetype_2.11.1.orig.tar.xz
+ 8471b23bfc24930fe7cefde7b2a5852ed57c30c99f51b5079d310e531f4177d7 40132 freetype_2.11.1-100.debian.tar.xz
+ f6bbca0be51ac9b935cf7999aa978b251a1b94b834332eb30d7cd8fceda97c97 4583 freetype_2.11.1-100_source.buildinfo
+Files:
+ 0c754c07f9bf350aeea73c3eb58d4c7e 2155 libs optional freetype_2.11.1-100.dsc
+ 9efff227779626d46c3d7334712c15a3 257240 libs optional freetype_2.11.1.orig-ft2demos.tar.xz
+ 37a74ce8cd1bf3736f77c7074a4f5052 2038348 libs optional freetype_2.11.1.orig-ft2docs.tar.xz
+ 24e79233d607ded439ef36ff1f3ab68f 2270728 libs optional freetype_2.11.1.orig.tar.xz
+ debd01a90e9544e9ca1e44fdfa1cd56b 40132 libs optional freetype_2.11.1-100.debian.tar.xz
+ f7565fc0f01aa400c6970c63f930a5e3 4583 libs optional freetype_2.11.1-100_source.buildinfo
