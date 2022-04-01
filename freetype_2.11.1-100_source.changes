@@ -18,18 +18,18 @@ Checksums-Sha1:
  741bc47a4f7861dae5c95915060ab137692e482a 2038348 freetype_2.11.1.orig-ft2docs.tar.xz
  86bdc98b37efe447cf53420bf2c18402ff905112 2270728 freetype_2.11.1.orig.tar.xz
  913ecc17d4c1c4f7e99d6b15dc328671184b90d7 40180 freetype_2.11.1-100.debian.tar.xz
- 17412f9396d223b7f4ba7cafd86f289256f66591 4583 freetype_2.11.1-100_source.buildinfo
+ edd4bc72e93e78f64884209145c9823cf7212a77 4600 freetype_2.11.1-100_source.buildinfo
 Checksums-Sha256:
  c40ab4b7cbc46aafdd194abaacba77be11d35c29bf9f471535d8c205fe07a3fd 2155 freetype_2.11.1-100.dsc
  c60620d49d0f16d95586eb868c01b129569409e6cfdcb87a78e0482a12604672 257240 freetype_2.11.1.orig-ft2demos.tar.xz
  755e29908093c19138a38775784b0accf7e838ffa28a25b8722b3dfe651d80fa 2038348 freetype_2.11.1.orig-ft2docs.tar.xz
  3333ae7cfda88429c97a7ae63b7d01ab398076c3b67182e960e5684050f2c5c8 2270728 freetype_2.11.1.orig.tar.xz
  0633d8e1d96fdd4385f8e12d3dff3206c8e271b84982e20f66261453546508e0 40180 freetype_2.11.1-100.debian.tar.xz
- d3bd8f526c80fe121673223fb667c38b252d3d081c21ce9fecc5b2d0845a1db3 4583 freetype_2.11.1-100_source.buildinfo
+ 7976fbbc6d0aff0bb258eef6303f1eea48426a0f08e8ce126ade31ae506ffa11 4600 freetype_2.11.1-100_source.buildinfo
 Files:
  af572c863d1f09d6989aedb0766674c4 2155 libs optional freetype_2.11.1-100.dsc
  9efff227779626d46c3d7334712c15a3 257240 libs optional freetype_2.11.1.orig-ft2demos.tar.xz
  37a74ce8cd1bf3736f77c7074a4f5052 2038348 libs optional freetype_2.11.1.orig-ft2docs.tar.xz
  24e79233d607ded439ef36ff1f3ab68f 2270728 libs optional freetype_2.11.1.orig.tar.xz
  a97928aeb6dfa62b34e410948018663a 40180 libs optional freetype_2.11.1-100.debian.tar.xz
- c900102ed4703f99896e07226a1bc02e 4583 libs optional freetype_2.11.1-100_source.buildinfo
+ dbeb7db452ec514aa0606c3c62645112 4600 libs optional freetype_2.11.1-100_source.buildinfo
